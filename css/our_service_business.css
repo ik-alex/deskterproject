@@ -1,0 +1,14 @@
+:root{ 
+    --theme-blue: #3939f8;
+    --theme-green:#19d19b;
+    --theme-dark: #010133;
+    --theme-white: #FFFFFF;
+}
+
+.navigation{ 
+    background-image: url("../img/header_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}

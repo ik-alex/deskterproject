@@ -1,0 +1,147 @@
+:root{ 
+    --theme-blue: #3939f8;
+    --theme-green:#19d19b;
+    --theme-dark: #010133;
+}
+
+/* NAVIGATION STYLING */
+.navigation{ 
+    background-image: url("../img/header_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-estimate {
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: var(--theme-white);
+    border: solid 1px var(--theme-midnight);
+    border-radius: 25px;
+}
+
+.welcome_section{ 
+    padding: 70px 0px;
+}
+
+.welcome_section h1{ 
+    color: var(--theme-blue);
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.welcome_section p{ 
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.main_content{ 
+    padding-top: 10px;
+}
+
+.chat_btn{ 
+    background-color: var(--theme-green);
+    border-radius: 50%;
+    padding: 10px;
+    border: 0;
+}
+
+.about_header h3{ 
+    letter-spacing: 0.48px;
+
+}
+
+.about_header h4{ 
+    color: var(--theme-green);
+    padding-top: 1rem;
+}
+
+.about_header p{
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    font-size: 12;
+}
+
+.our_values{ 
+    background-image: url(../img/values_img.png);
+    background-position: center;
+    height: 700px;
+    background-size: cover;
+    margin-top: 1rem;
+    padding-top: 4rem;
+}
+
+.our_values_h h2{ 
+    color: var(--theme-blue);
+    font-size: 30px;
+    line-height: 35px;
+    height: 85px;
+}
+
+.our_values_h p{ 
+    padding-top: 2rem;
+    font-size: 12;
+    line-height: 1.59;
+    letter-spacing: 0.22px;
+    color: var(--theme-dark);
+}
+
+.div_circle{ 
+    margin-top: 12rem;
+}
+
+.circle{ 
+    width: 20px;
+    height: 20px;
+    border: solid 1px var(--theme-dark);
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.process_section{ 
+    margin-top: 4rem;
+}
+
+.process_section h2{ 
+    color: var(--theme-dark);
+    font-size: 30px;
+    letter-spacing: 0.48px;
+    font-size: 40px;
+}
+
+.process_section h3{ 
+    color: var(--theme-green);
+    line-height: 1.33;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.process_section p{
+    color: var(--theme-dark);
+    line-height: 1.59;
+    letter-spacing: 0.70px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.image-process_wrapper{ 
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process-section_deskter{ 
+    font-size: 230px;
+    font-weight: 1400;
+    opacity: 0.12;
+    line-height: 0.05;
+}
+
+.footer__section{ 
+    margin-top: 3rem;
+    background-color: #020234;
+    padding: 50px 0;
+}
