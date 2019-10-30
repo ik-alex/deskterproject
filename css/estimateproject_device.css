@@ -1,0 +1,114 @@
+:root{ 
+    --theme-blue: #3939f8;
+    --theme-green:#19d19b;
+    --theme-dark: #010133;
+    --theme-white: #FFFFFF;
+    --theme-grey:  #dbdbe2;
+}
+
+.navigation{ 
+    background-image: url("../img/header_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.welcome_section{ 
+    padding-top: 8rem;
+}
+
+.welcome_section h1{ 
+    color: var(--theme-blue);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.welcome_section p{
+    color: var(--theme-dark);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chat_button{ 
+    padding-left: 75rem;
+    margin-top: 5rem;
+}
+
+.chat_btn {
+    background-color: var(--theme-green);
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 4rem;
+    box-shadow: 0 1px 5px 0 #b1b1b1;
+}
+
+.what__business h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.what__business .card {
+    border-radius: 10px;
+    box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.16);
+}
+.card-body {
+    padding: 1.30rem;
+}
+
+.rectangle {
+    height: 40px;
+    width: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+    float: right;
+    opacity: 0.2;
+}
+
+.form__section--header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form__section-area label{
+    color: var(--theme-blue);
+}
+
+.form__section-area .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom-color: var(--theme-blue);
+}
+
+.form-check{
+    padding-left: 1.25rem;
+}
+
+.form-check-label{
+    color: var(--theme-dark);
+}
+
+
+.form__section-area button {
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: 10px 35px;
+    background-color: var(--theme-green);
+    color: var(--theme-white);
+    border: solid 1px var(--theme-green);
+    border-radius: 5px;
+}
+
+.footer__section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #020234;
+    padding: 40px 0;
+}
